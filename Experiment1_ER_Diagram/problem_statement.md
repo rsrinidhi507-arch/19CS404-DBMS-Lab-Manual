@@ -83,6 +83,8 @@ The Central Library wants to manage book lending and cultural events.
 | Room | Room ID (PK), Room name, Capacity | Rooms used for events and study |
 | Booking | Booking ID (PK), Booking date, Start time, End time, Purpose, Room ID (FK), Member ID (FK), Event ID (FK, optional) | Event ID is empty for study bookings |
 
+### Relationships and Constraints
+
 | Relationship | Cardinality | Participation | Notes |
 |--------------|------------|---------------|-------|
 | Book Has Borrowing | 1:N | Book partial, Borrowing total | A book is lent many times |
